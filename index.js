@@ -28,7 +28,7 @@ app.get('/dashboard', function(req, res) {
 });
 
 app.get('/:username', function(req, res) {
-  github.user.getFollowingFromUser({
+  github.user.getFrom({
     // optional: 
     // headers: { 
     //     "cookie": "blahblah" 
